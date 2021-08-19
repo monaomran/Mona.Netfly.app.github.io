@@ -1,0 +1,119 @@
+body{
+
+    background-color: #24353f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(255,255,255);
+
+}
+
+.login{
+
+
+    width: 55%;
+    text-align: center;
+    height: fit-content;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    padding: 50px;
+    margin-top: 50px;
+    
+}
+.login h1{
+
+    color: #17a2b8;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.userInput{
+
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 0.25rem ;
+    padding: 0.375rem 0.75rem;
+
+
+}
+
+::placeholder{
+    color: rgb(255,255,255,.5) !important;
+
+}
+
+ button{
+
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #17a2b8 !important;
+    border-radius: 0.25rem ;
+    padding: 0.375rem 0.75rem;
+    color: #17a2b8 !important;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navigationBar{
+
+    height: 60px;
+    width: 100%;
+    padding: 0px 50px;
+    background-color: transparent;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.navBarItem {
+
+
+     margin: 0px 150px;
+     width: fit-content;
+   
+}
+
+.navigationBar button{
+
+    color: rgb(255,255,255,.5) !important;
+    border: 1px solid #ffc107 !important;
+
+    
+}
+
+.navigationBar button:hover{
+
+    background-color:#ffc107 ;
+}
+
+.homeContainer{
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome{
+
+    margin-top: 30px;
+    text-align: center;
+    background-color: transparent;
+    width: 55%;
+    height: fit-content;
+    padding: 50px;
+    color: #17a2b8;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+
+}
